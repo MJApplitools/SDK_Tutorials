@@ -1,17 +1,19 @@
-
+import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.images.Eyes;
 import com.applitools.eyes.images.Target;
-import com.applitools.eyes.RectangleSize;
 
-import org.junit.Test;
-import java.net.URL;
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import javax.imageio.ImageIO;
+import java.net.URL;
 
-public class DemoTest {
-    @Test
-    public void test() {
+public class DemoImages {
+
+    public static void main(String[] args) {
+        test();
+    }
+
+    public static void test() {
 
         Eyes eyes = new Eyes();
 
