@@ -1,4 +1,4 @@
-# Local mobile web tutorial
+# Local mobile native tutorial
 ___
 # Requirements
 - Real device connected via cable or local device emulator
@@ -9,10 +9,10 @@ ___
 <dependencies>
         <dependency>
             <groupId>com.applitools</groupId>
-            <artifactId>eyes-selenium-java3</artifactId>
+            <artifactId>eyes-appium-java3</artifactId>
             <version>LATEST</version>
         </dependency>
 </dependencies>
 ```
 
-- [Maven repo](https://search.maven.org/artifact/com.applitools/eyes-selenium-java3)
+- [Maven repo](https://search.maven.org/artifact/com.applitools/eyes-appium-java3)
