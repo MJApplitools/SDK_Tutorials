@@ -1,19 +1,17 @@
-# TestNG tutorial
+# Local mobile web tutorial
+___
+# Requirements
+- Real device connected via cable or local device emulator
+- Running Appium server
 ___
 # Required maven dependencies:
 ```
 <dependencies>
-    <dependency>
-        <groupId>com.applitools</groupId>
-        <artifactId>eyes-selenium-java3</artifactId>
-        <version>3.210.6</version>
-    </dependency>
-    
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>6.11</version>
-    </dependency>
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-selenium-java3</artifactId>
+            <version>LATEST</version>
+        </dependency>
 </dependencies>
 ```
 
