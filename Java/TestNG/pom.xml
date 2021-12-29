@@ -14,7 +14,6 @@
     <packaging>pom</packaging>
 
     <dependencies>
-
         <dependency>
             <groupId>com.applitools</groupId>
             <artifactId>eyes-selenium-java3</artifactId>

@@ -1,7 +1,6 @@
 import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.images.Eyes;
 import com.applitools.eyes.images.Target;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;

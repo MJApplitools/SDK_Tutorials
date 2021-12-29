@@ -1,3 +1,5 @@
+package Local_Web;
+
 import com.applitools.eyes.BatchInfo;
 import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.TestResultsSummary;
@@ -28,7 +30,7 @@ public class TestNG_DataProvider {
         return new Object[][] {{"https://www.google.com"}, {"https://www.applitools.com"}};
     }
 
-    @BeforeClass
+    @BeforeTest
     public static void setBatch() {
         // Must be before ALL tests (at Class-level)
         batch = new BatchInfo();
@@ -36,7 +38,7 @@ public class TestNG_DataProvider {
 //        batch.setId("batch_id");
     }
 
-    @BeforeTest
+    @BeforeClass
     public void beforeTest() {
         // Initialize the Runner for your test.
         runner = new ClassicRunner();
@@ -64,7 +66,7 @@ public class TestNG_DataProvider {
     public void beforeEach(){
         // Set AUT's name, test name and viewport size (width X height)
         // We have set it to 800 x 600 to accommodate various screens. Feel free to change it.
-        eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(600, 800));
+        eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(800, 600));
     }
 
     @AfterMethod

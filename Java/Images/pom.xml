@@ -11,9 +11,18 @@
 
     <artifactId>Images</artifactId>
 
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-images-java3</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -11,6 +11,9 @@
 
     <modules>
         <module>TestNG</module>
+        <module>Images</module>
+        <module>Local_Mobile_Web</module>
+        <module>Local_Mobile_Native</module>
     </modules>
 
 
