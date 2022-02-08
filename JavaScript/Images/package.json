@@ -1,8 +1,8 @@
 {
-  "name": "Local_Web",
+  "name": "Images",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "base_test.js",
   "scripts": {
     "test": "node base_test.js"
   },
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes-selenium": "^4.58.0",
-    "selenium-webdriver": "^4.0.0"
+    "@applitools/eyes-images": "^4.21.0"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:local:classic": "node Local_Web/base_test.js",
+    "test:local:ufg": "node UFG/base_test.js",
+
+    "test:local:mobile:iOS": "node Local_Mobile_Web/base_test_iOS.js",
+    "test:local:mobile:android": "node Local_Mobile_Web/base_test_android.js",
+
+    "test:remote:mobile:iOS": "node Remote_Web/base_test_iOS.js",
+    "test:remote:mobile:android": "node Remote_Web/base_test_android.js",
+
+    "test:local:native:iOS": "node Local_Native/base_test_iOS.js",
+    "test:local:native:android": "node Local_Native/base_test_android.js",
+
+    "test:remote:native:android": "node Remote_Native/base_test_android.js",
+    "test:remote:native:iOS": "node Remote_Native/base_test_iOS.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-selenium": "^4.58.3",
+    "chromedriver": "^89.0.0",
+    "selenium-webdriver": "^4.1.1"
+  }
+}

@@ -5,7 +5,7 @@ async function main() {
 
     let driver = await new Builder().withCapabilities(Capabilities.chrome()).build();
     let eyes = new Eyes();
-    // eyes.setLogHandler(new ConsoleLogHandler(true));
+    eyes.setLogHandler(new ConsoleLogHandler(true));
     eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
 
     try {
@@ -14,7 +14,6 @@ async function main() {
         await eyes.check(Target.window());   
         await eyes.close(false);
     } finally {
-        // console.log(await eyes.getRunner().getAllTestResults());
         await eyes.getRunner().getAllTestResults()
         await driver.quit();
         eyes.abortIfNotClosed();

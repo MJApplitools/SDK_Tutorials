@@ -1,0 +1,18 @@
+{
+  "name": "Remote_Native",
+  "version": "1.0.0",
+  "description": "- Upload your application to the remote device provider (in this case sauce labs): https://wiki.saucelabs.com/pages/viewpage.action?pageId=102721137     - Example: curl -F 'payload=@/Users/mattjasaitis/SDK_Tutorials/apps/app-debug.apk' -F name=app-debug.apk -u \"$SAUCE_USERNAME:$SAUCE_ACCESS_KEY\"  'https://api.us-west-1.saucelabs.com/v1/storage/upload' - Pass the app ID to your capabilities object",
+  "main": "base_test_android.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:iOS": "node base_test_iOS.js",
+    "test:Android": "node base_test_android.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-selenium": "^4.58.3",
+    "selenium-webdriver": "^4.1.1"
+  }
+}

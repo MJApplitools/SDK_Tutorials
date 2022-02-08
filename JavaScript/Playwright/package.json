@@ -1,0 +1,19 @@
+{
+  "name": "Playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:web": "npx playwright test Local_Web/base_test.spec.js",
+    "test:ufg": "npx playwright test UFG/base_test.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-playwright": "^1.11.2",
+    "@playwright/test": "^1.18.1",
+    "playwright": "^1.18.1"
+  }
+}

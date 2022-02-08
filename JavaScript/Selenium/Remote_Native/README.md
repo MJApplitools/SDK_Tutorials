@@ -1,0 +1,4 @@
+- Upload your application to the remote device provider (in this case sauce labs): https://wiki.saucelabs.com/pages/viewpage.action?pageId=102721137
+    - Example: curl -F 'payload=@/Users/mattjasaitis/SDK_Tutorials/apps/app-debug.apk' -F name=app-debug.apk -u "$SAUCE_USERNAME:$SAUCE_ACCESS_KEY"  'https://api.us-west-1.saucelabs.com/v1/storage/upload'
+- Pass the app name to your capabilities object (see test files)
+- set your SAUCE_USERNAME and SAUCE_ACCESS_KEY env variables

@@ -1,0 +1,3 @@
+- npm install
+- set environment variables for Sauce Labs
+- npm run test:iOS or npm run test:Android
