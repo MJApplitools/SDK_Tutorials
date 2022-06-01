@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer-eyes-classic",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://applitools.com",
+  "author": {
+    "name": "Applitools Team",
+    "email": "team@applitools.com"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts 'test/example-ultrafast.test.js'"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-puppeteer": "^1.9.0",
+    "mocha": "10.0.0",
+    "puppeteer": "14.1.2"
+  }
+}
